@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Ukrainian Patriot",
+  "description": "This extension blocks all requests that are sent to banned sites, according to the decree of the President of Ukraine.",
+  "version": "1.0.3",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon48.png"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "background",
+    "webRequest",
+    "webRequestBlocking",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "offline_enabled": false
+}
