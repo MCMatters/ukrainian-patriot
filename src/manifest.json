@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Ukrainian Patriot",
   "description": "This extension blocks all requests that are sent to banned sites, according to the decree of the President of Ukraine.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "background": {
     "scripts": ["background.js"]
   },
