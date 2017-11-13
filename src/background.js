@@ -5,6 +5,7 @@ chrome.webRequest.onBeforeRequest.addListener(
     };
   },
   {
+    // http://www.president.gov.ua/documents/1332017-21850
     urls: [
       '*://imgsmail.ru/*',
       '*://*.imgsmail.ru/*',
@@ -12,6 +13,10 @@ chrome.webRequest.onBeforeRequest.addListener(
       '*://*.mail.ru/*',
       '*://list.ru/*',
       '*://*.list.ru/*',
+      '*://bk.ru/*',
+      '*://*.bk.ru/*',
+      '*://inbox.ru/*',
+      '*://*.inbox.ru/*',
       '*://vkontakte.ru/*',
       '*://*.vkontakte.ru/*',
       '*://vk.com/*',
@@ -37,6 +42,14 @@ chrome.webRequest.onBeforeRequest.addListener(
       '*://*.yandex.net/*',
       '*://rambler.ru/*',
       '*://*.rambler.ru/*',
+      '*://auto.ru/*',
+      '*://kinopoisk.ru/*',
+      '*://kaspersky.ru/*',
+      '*://*.kaspersky.ru/*',
+      '*://kaspersky.ua/*',
+      '*://*.kaspersky.ua/*',
+      '*://drweb.ru/*',
+      '*://*.drweb.ru/*',
     ]
   },
   ['blocking']
